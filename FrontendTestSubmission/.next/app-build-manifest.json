@@ -15,6 +15,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/shortener/page.js"
     ],
+    "/[shortcode]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[shortcode]/page.js"
+    ],
     "/stats/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
